@@ -11,6 +11,13 @@ sensors.
 It can be used on a one-off basis (with SUID bit set) to change the bus timings without re-booting and/or configured as a `systemd` service
 to update timings upon system boot. The utility also updates the falling edge and rising edge delay values based on the clock divider.
 
+## Compile
+
+```
+sudo apt-get install libraspberrypi-dev
+make
+```
+
 ## Usage
 
 ### Meaning of `DIV.CDIV` and `CLKT.TOUT`
